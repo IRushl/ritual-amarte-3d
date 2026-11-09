@@ -1,3 +1,4 @@
+import officialLogo from "./assets/branding/ritual-amarte-logo.svg";
 import { useMemo, useState } from "react";
 import { Icon, type IconName } from "./components/Icon";
 import {
@@ -44,12 +45,13 @@ export default function App() {
           }}
           aria-label="Ritual Amarte, inicio"
         >
-          <span className="brand-mark">
-            ra<span>✳</span>
-          </span>
-          <span className="brand-name">
-            ritual amarte<span>NAIL STUDIO EXPERIENCE</span>
-          </span>
+          <img
+            className="brand-logo"
+            src={officialLogo}
+            alt="Ritual Amarte — Nail Studio Experience"
+            width={593}
+            height={620}
+          />
         </a>
         <div className="sidebar-section-label">EXPLORAR EL ESTUDIO</div>
         <nav aria-label="Navegación principal">
