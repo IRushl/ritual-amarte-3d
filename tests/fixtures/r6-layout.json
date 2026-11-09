@@ -1,0 +1,3575 @@
+{
+  "id": "ritual-refinado-r6",
+  "revision": "0.2.6",
+  "unidades": "m",
+  "local": {
+    "ancho": 12,
+    "fondo": 8,
+    "alto": 3.4,
+    "espesorMuro": 0.15,
+    "evidencia": {
+      "tipo": "supuesto-diseno",
+      "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+    }
+  },
+  "marca": {
+    "nombre": "Ritual Amarte",
+    "estado": "Nombre de trabajo pendiente de validación marcaria"
+  },
+  "materiales": [
+    {
+      "id": "piedra",
+      "nombre": "Superficie clara no porosa · por validar",
+      "color": "#eee7dc",
+      "roughness": 0.32,
+      "estado": "por-verificar",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      }
+    },
+    {
+      "id": "madera",
+      "nombre": "Madera clara sellada · propuesta",
+      "color": "#d7c3a5",
+      "roughness": 0.6,
+      "estado": "por-verificar",
+      "evidencia": {
+        "tipo": "decision-preliminar",
+        "fuente": "Maestro V1.7 caps. 16–18 y 22; dirección de experiencia, no capacidad aprobada"
+      }
+    },
+    {
+      "id": "tapizado",
+      "nombre": "Tapizado crema lavable · por ensayar",
+      "color": "#e6dccb",
+      "roughness": 0.93,
+      "estado": "por-verificar",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      }
+    },
+    {
+      "id": "muro",
+      "nombre": "Acabado marfil cálido · provisional",
+      "color": "#eee8df",
+      "roughness": 0.8,
+      "estado": "por-verificar",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      }
+    },
+    {
+      "id": "piso",
+      "nombre": "Piso crema de gran formato · por validar",
+      "color": "#e9e1d3",
+      "roughness": 0.4,
+      "estado": "por-verificar",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      }
+    },
+    {
+      "id": "champana",
+      "nombre": "Metal champaña satinado · propuesta",
+      "color": "#b79b70",
+      "roughness": 0.35,
+      "estado": "por-verificar",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      }
+    },
+    {
+      "id": "ceramica",
+      "nombre": "Cerámica sanitaria clara · provisional",
+      "color": "#f4eee4",
+      "roughness": 0.25,
+      "estado": "por-verificar",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      }
+    },
+    {
+      "id": "nude",
+      "nombre": "Tapizado nude / rosa polvo · propuesta",
+      "color": "#d7b7ba",
+      "roughness": 0.92,
+      "estado": "por-verificar",
+      "evidencia": {
+        "tipo": "decision-preliminar",
+        "fuente": "Maestro V1.7 caps. 16–18 y 22; dirección de experiencia, no capacidad aprobada"
+      }
+    }
+  ],
+  "muros": [
+    {
+      "id": "m-norte",
+      "nombre": "Muro posterior",
+      "desde": [
+        -6.15,
+        -4
+      ],
+      "hasta": [
+        6.15,
+        -4
+      ],
+      "grupo": "norte",
+      "altura": 3.4,
+      "espesor": 0.15,
+      "materialId": "muro",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      }
+    },
+    {
+      "id": "m-sur",
+      "nombre": "Fachada de acceso",
+      "desde": [
+        -6.15,
+        4
+      ],
+      "hasta": [
+        6.15,
+        4
+      ],
+      "grupo": "sur",
+      "altura": 3.4,
+      "espesor": 0.15,
+      "materialId": "muro",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      }
+    },
+    {
+      "id": "m-oeste",
+      "nombre": "Lateral de manicure",
+      "desde": [
+        -6,
+        -4
+      ],
+      "hasta": [
+        -6,
+        4
+      ],
+      "grupo": "oeste",
+      "altura": 3.4,
+      "espesor": 0.15,
+      "materialId": "muro",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      }
+    },
+    {
+      "id": "m-este",
+      "nombre": "Lateral de pedicure",
+      "desde": [
+        6,
+        -4
+      ],
+      "hasta": [
+        6,
+        4
+      ],
+      "grupo": "este",
+      "altura": 3.4,
+      "espesor": 0.15,
+      "materialId": "muro",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      }
+    },
+    {
+      "id": "m-reserva",
+      "nombre": "Frente de baño",
+      "desde": [
+        3,
+        -1.8
+      ],
+      "hasta": [
+        6,
+        -1.8
+      ],
+      "grupo": "interior",
+      "altura": 3.4,
+      "espesor": 0.15,
+      "materialId": "muro",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      }
+    },
+    {
+      "id": "m-particion-4",
+      "nombre": "División del baño",
+      "desde": [
+        3,
+        -4
+      ],
+      "hasta": [
+        3,
+        -1.8
+      ],
+      "grupo": "interior",
+      "altura": 3.4,
+      "espesor": 0.15,
+      "materialId": "muro",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      }
+    }
+  ],
+  "huecos": [
+    {
+      "id": "p-acceso",
+      "nombre": "Puerta principal",
+      "muroId": "m-sur",
+      "tipo": "puerta",
+      "offset": 5.45,
+      "ancho": 1.4,
+      "alto": 2.5,
+      "antepecho": 0,
+      "giro": -1,
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      }
+    },
+    {
+      "id": "p-reserva",
+      "nombre": "Puerta del baño",
+      "muroId": "m-reserva",
+      "tipo": "puerta",
+      "offset": 0.25,
+      "ancho": 0.9,
+      "alto": 2.15,
+      "antepecho": 0,
+      "giro": -1,
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      }
+    },
+    {
+      "id": "v-frente-oeste",
+      "nombre": "Ventanal de fachada izquierdo",
+      "muroId": "m-sur",
+      "tipo": "ventana",
+      "offset": 0.6,
+      "ancho": 3.4,
+      "alto": 2.45,
+      "antepecho": 0.35,
+      "giro": 1,
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      }
+    },
+    {
+      "id": "v-frente-este",
+      "nombre": "Ventanal de fachada derecho",
+      "muroId": "m-sur",
+      "tipo": "ventana",
+      "offset": 7.3,
+      "ancho": 3.6,
+      "alto": 2.45,
+      "antepecho": 0.35,
+      "giro": 1,
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      }
+    }
+  ],
+  "espacios": [
+    {
+      "id": "recepcion",
+      "nombre": "Recepción / bienvenida",
+      "centro": [
+        1.65,
+        0,
+        2.9
+      ],
+      "dimensiones": [
+        2.4,
+        3.4,
+        2.2
+      ],
+      "color": "#ba9d7b",
+      "descripcion": "Mostrador junto al acceso con espacio posterior de operación; marca visible desde el frente.",
+      "reserva": false,
+      "estadoVerificacion": "conceptual",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      }
+    },
+    {
+      "id": "espera",
+      "nombre": "Lounge de espera",
+      "centro": [
+        4.25,
+        0,
+        2.45
+      ],
+      "dimensiones": [
+        3.1,
+        3.4,
+        3.1
+      ],
+      "color": "#b9ad97",
+      "descripcion": "Dos sofás en L y mesa central amplia; se aprovecha el tercer tocador retirado.",
+      "reserva": false,
+      "estadoVerificacion": "conceptual",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      }
+    },
+    {
+      "id": "manicure",
+      "nombre": "Manicure · 3 estaciones",
+      "centro": [
+        -3.65,
+        0,
+        0.5
+      ],
+      "dimensiones": [
+        4.3,
+        3.4,
+        5.4
+      ],
+      "color": "#bca794",
+      "descripcion": "Tres estaciones alineadas, próximas a esmaltes y apoyo; holguras operativas por comprobar.",
+      "reserva": false,
+      "estadoVerificacion": "conceptual",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      }
+    },
+    {
+      "id": "pedicure",
+      "nombre": "Pedicure · 2 estaciones",
+      "centro": [
+        0.35,
+        0,
+        -2.55
+      ],
+      "dimensiones": [
+        3.8,
+        3.4,
+        2.9
+      ],
+      "color": "#9da58e",
+      "descripcion": "Frente spa posterior orientado al salón, apartado de la bienvenida.",
+      "reserva": false,
+      "estadoVerificacion": "conceptual",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      }
+    },
+    {
+      "id": "maquillaje",
+      "nombre": "Maquillaje · 2 puestos",
+      "centro": [
+        4.9,
+        0,
+        -0.45
+      ],
+      "dimensiones": [
+        2.2,
+        3.4,
+        2.7
+      ],
+      "color": "#c4a8a3",
+      "descripcion": "Franja mural de tocadores iluminados. Ampliación solicitada; portafolio, personal e higiene por validar.",
+      "reserva": false,
+      "estadoVerificacion": "conceptual",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      }
+    },
+    {
+      "id": "exhibicion",
+      "nombre": "Esmaltes",
+      "centro": [
+        -5.75,
+        0,
+        0.5
+      ],
+      "dimensiones": [
+        0.4,
+        3.4,
+        2.4
+      ],
+      "color": "#c5ab80",
+      "descripcion": "Exhibición mural integrada a manicure, no área adicional.",
+      "reserva": false,
+      "estadoVerificacion": "conceptual",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      }
+    },
+    {
+      "id": "almacen",
+      "nombre": "Almacenamiento",
+      "centro": [
+        -4.6,
+        0,
+        -3.5
+      ],
+      "dimensiones": [
+        2.4,
+        3.4,
+        1
+      ],
+      "color": "#a99c84",
+      "descripcion": "Armarios cerrados en apoyo posterior, sin recinto independiente.",
+      "reserva": true,
+      "estadoVerificacion": "conceptual",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      }
+    },
+    {
+      "id": "asepsia",
+      "nombre": "Asepsia / manos personal",
+      "centro": [
+        -2.3,
+        0,
+        -3.5
+      ],
+      "dimensiones": [
+        1.9,
+        3.4,
+        1
+      ],
+      "color": "#99aa9e",
+      "descripcion": "Mesón compacto. Separación limpio/usado y equipamiento requieren proyecto técnico.",
+      "reserva": true,
+      "estadoVerificacion": "conceptual",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      }
+    },
+    {
+      "id": "aseo",
+      "nombre": "Aseo · uso exclusivo",
+      "centro": [
+        -5.65,
+        0,
+        -2.55
+      ],
+      "dimensiones": [
+        0.7,
+        3.4,
+        0.7
+      ],
+      "color": "#a5a7a2",
+      "descripcion": "Poceta y útiles segregados previstos en apoyo; se elimina el recinto, no la necesidad.",
+      "reserva": true,
+      "estadoVerificacion": "conceptual",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      }
+    },
+    {
+      "id": "tecnico",
+      "nombre": "Residuos · reserva",
+      "centro": [
+        -2.65,
+        0,
+        -2.9
+      ],
+      "dimensiones": [
+        0.5,
+        3.4,
+        0.5
+      ],
+      "color": "#aba298",
+      "descripcion": "Resguardo cerrado pendiente de clasificación y compatibilidad sanitaria.",
+      "reserva": true,
+      "estadoVerificacion": "conceptual",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      }
+    },
+    {
+      "id": "sanitario",
+      "nombre": "Baño conceptual",
+      "centro": [
+        4.5,
+        0,
+        -2.9
+      ],
+      "dimensiones": [
+        3,
+        3.4,
+        2.2
+      ],
+      "color": "#b7a6af",
+      "descripcion": "Puerta, sanitario, lavamanos y espejo. Redes y accesibilidad sin verificar.",
+      "reserva": true,
+      "estadoVerificacion": "conceptual",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      }
+    },
+    {
+      "id": "circulacion",
+      "nombre": "Eje de distribución",
+      "centro": [
+        0,
+        0,
+        1.2
+      ],
+      "dimensiones": [
+        1.5,
+        3.4,
+        5.6
+      ],
+      "color": "#c1b391",
+      "descripcion": "Eje central y conexión transversal a los servicios. No acredita accesibilidad.",
+      "reserva": false,
+      "estadoVerificacion": "conceptual",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      }
+    },
+    {
+      "id": "acceso",
+      "nombre": "Acceso principal",
+      "centro": [
+        0,
+        0,
+        3.6
+      ],
+      "dimensiones": [
+        1.6,
+        3.4,
+        0.8
+      ],
+      "color": "#c5b59b",
+      "descripcion": "Entrada y bienvenida inmediata; evacuación por validar.",
+      "reserva": false,
+      "estadoVerificacion": "conceptual",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      }
+    }
+  ],
+  "mobiliario": [
+    {
+      "id": "recepcion-01",
+      "nombre": "Mostrador curvo de recepción",
+      "categoria": "recepcion",
+      "espacioId": "recepcion",
+      "posicion": [
+        1.65,
+        0,
+        2.95
+      ],
+      "dimensiones": [
+        1.65,
+        1.45,
+        0.7
+      ],
+      "rotacion": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "materialId": "piedra",
+      "material": {
+        "nombre": "Superficie clara no porosa · por validar",
+        "color": "#eee7dc",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "fabricacion",
+      "requiereElectricidad": true,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Fabricación propuesta; envolvente incluye terminal y accesorios. Marca de trabajo pendiente de validación.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "enlaces": {
+        "inventarioId": "recepcion-01",
+        "presupuestoId": "pres-recepcion-01",
+        "planoMuebleId": "ficha-recepcion-01",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "espera-01",
+      "nombre": "Sofá curvo lounge",
+      "categoria": "asiento",
+      "espacioId": "espera",
+      "posicion": [
+        4.4,
+        0,
+        3.35
+      ],
+      "dimensiones": [
+        2.25,
+        0.9,
+        0.95
+      ],
+      "rotacion": [
+        0,
+        0,
+        0
+      ],
+      "materialId": "tapizado",
+      "material": {
+        "nombre": "Tapizado crema lavable · por ensayar",
+        "color": "#e6dccb",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "compra",
+      "requiereElectricidad": false,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Asiento boutique de compra propuesta. Comodidad y tapizado por verificar.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "enlaces": {
+        "inventarioId": "espera-01",
+        "presupuestoId": "pres-espera-01",
+        "planoMuebleId": "ficha-espera-01",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "mesa-espera-01",
+      "nombre": "Mesa auxiliar de espera",
+      "categoria": "auxiliar",
+      "espacioId": "espera",
+      "posicion": [
+        3.85,
+        0,
+        2.2
+      ],
+      "dimensiones": [
+        1.1,
+        0.4,
+        0.8
+      ],
+      "rotacion": [
+        0,
+        0,
+        0
+      ],
+      "materialId": "piedra",
+      "material": {
+        "nombre": "Superficie clara no porosa · por validar",
+        "color": "#eee7dc",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "compra",
+      "requiereElectricidad": false,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Apoyo de espera sin alimentos ni bebidas en puestos de procedimiento.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "enlaces": {
+        "inventarioId": "mesa-espera-01",
+        "presupuestoId": "pres-mesa-espera-01",
+        "planoMuebleId": "ficha-mesa-espera-01",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "esmaltes-01",
+      "nombre": "Mueble de esmaltes",
+      "categoria": "exhibicion",
+      "espacioId": "exhibicion",
+      "posicion": [
+        -5.75,
+        0,
+        0.5
+      ],
+      "dimensiones": [
+        2.2,
+        2.25,
+        0.3
+      ],
+      "rotacion": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "materialId": "madera",
+      "material": {
+        "nombre": "Madera clara sellada · propuesta",
+        "color": "#d7c3a5",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "fabricacion",
+      "requiereElectricidad": true,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Exhibición genérica retroiluminada. Sin marcas de productos ni cantidades de inventario confirmadas.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "enlaces": {
+        "inventarioId": "esmaltes-01",
+        "presupuestoId": "pres-esmaltes-01",
+        "planoMuebleId": "ficha-esmaltes-01",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "almacen-01",
+      "nombre": "Almacenamiento de insumos",
+      "categoria": "almacenamiento",
+      "espacioId": "almacen",
+      "posicion": [
+        -4,
+        0,
+        -3.65
+      ],
+      "dimensiones": [
+        1.15,
+        1.9,
+        0.65
+      ],
+      "rotacion": [
+        0,
+        0,
+        0
+      ],
+      "materialId": "madera",
+      "material": {
+        "nombre": "Madera clara sellada · propuesta",
+        "color": "#d7c3a5",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "fabricacion",
+      "requiereElectricidad": false,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Insumos protegidos. Separación y acabados por verificar.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Solicitud R5; ubicación, redes y fabricación pendientes de validación."
+      },
+      "enlaces": {
+        "inventarioId": "almacen-01",
+        "presupuestoId": "pres-almacen-01",
+        "planoMuebleId": "ficha-almacen-01",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "apertura": {
+        "hojas": 2,
+        "frenteLocal": "+Z",
+        "estado": "conceptual"
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "almacen-02",
+      "nombre": "Armario de toallas y herramientas",
+      "categoria": "almacenamiento",
+      "espacioId": "almacen",
+      "posicion": [
+        -5.5,
+        0,
+        -3.575
+      ],
+      "dimensiones": [
+        0.75,
+        1.8,
+        0.55
+      ],
+      "rotacion": [
+        0,
+        0,
+        0
+      ],
+      "materialId": "madera",
+      "material": {
+        "nombre": "Madera clara sellada · propuesta",
+        "color": "#d7c3a5",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "fabricacion",
+      "requiereElectricidad": false,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "R6: puertas hacia +Z, uniformes con el armario de insumos. Solo toallas y herramientas limpias. Giro conceptual; ergonomía y herrajes por validar.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Solicitud R6: apertura uniforme con armario de insumos; ergonomía pendiente."
+      },
+      "enlaces": {
+        "inventarioId": "almacen-02",
+        "presupuestoId": "pres-almacen-02",
+        "planoMuebleId": "ficha-almacen-02",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "apertura": {
+        "hojas": 2,
+        "frenteLocal": "+Z",
+        "estado": "conceptual"
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "asepsia-01",
+      "nombre": "Mesón técnico de asepsia",
+      "categoria": "asepsia",
+      "espacioId": "asepsia",
+      "posicion": [
+        -2.65,
+        0,
+        -3.65
+      ],
+      "dimensiones": [
+        1.1,
+        1.15,
+        0.65
+      ],
+      "rotacion": [
+        0,
+        0,
+        0
+      ],
+      "materialId": "piedra",
+      "material": {
+        "nombre": "Superficie clara no porosa · por validar",
+        "color": "#eee7dc",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "fabricacion",
+      "requiereElectricidad": true,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Mesón exclusivo de procesamiento de instrumental. Se reduce envolvente a 1.10 m para separar lavado de manos. Flujo usado/limpio, salpicaduras y equipos por validar; no sustituye lavamanos personal.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Solicitud R5; ubicación, redes y fabricación pendientes de validación."
+      },
+      "enlaces": {
+        "inventarioId": "asepsia-01",
+        "presupuestoId": "pres-asepsia-01",
+        "planoMuebleId": "ficha-asepsia-01",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "usoSanitario": "instrumental",
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "poceta-01",
+      "nombre": "Poceta de aseo prevista",
+      "categoria": "lavabo",
+      "espacioId": "aseo",
+      "posicion": [
+        -5.68,
+        0,
+        -2.55
+      ],
+      "dimensiones": [
+        0.55,
+        0.9,
+        0.6
+      ],
+      "rotacion": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "materialId": "ceramica",
+      "material": {
+        "nombre": "Cerámica sanitaria clara · provisional",
+        "color": "#f4eee4",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "compra",
+      "requiereElectricidad": false,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Poceta exclusiva de útiles de aseo en reserva lateral posterior. Agua, sifón y desagüe propios previstos. Cerramiento/independencia física por resolver, no se declara cumplimiento.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Solicitud R5; ubicación, redes y fabricación pendientes de validación."
+      },
+      "enlaces": {
+        "inventarioId": "poceta-01",
+        "presupuestoId": "pres-poceta-01",
+        "planoMuebleId": "ficha-poceta-01",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "usoSanitario": "aseo",
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "apoyo-01",
+      "nombre": "Apoyo limpio de manicure",
+      "categoria": "almacenamiento",
+      "espacioId": "manicure",
+      "posicion": [
+        -5.71,
+        0,
+        -1.3
+      ],
+      "dimensiones": [
+        1,
+        0.9,
+        0.55
+      ],
+      "rotacion": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "materialId": "madera",
+      "material": {
+        "nombre": "Madera clara sellada · propuesta",
+        "color": "#d7c3a5",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "fabricacion",
+      "requiereElectricidad": false,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Muro izquierdo junto al extremo posterior del exhibidor. Solo material limpio; prohibido procesar instrumental usado o almacenar residuos. Puertas correderas propuestas, sistema por definir.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Solicitud R5; ubicación, redes y fabricación pendientes de validación."
+      },
+      "enlaces": {
+        "inventarioId": "apoyo-01",
+        "presupuestoId": "pres-apoyo-01",
+        "planoMuebleId": "ficha-apoyo-01",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "usoSanitario": "apoyo-limpio",
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "wc-01",
+      "nombre": "Sanitario previsto",
+      "categoria": "sanitario",
+      "espacioId": "sanitario",
+      "posicion": [
+        4.1,
+        0,
+        -3.25
+      ],
+      "dimensiones": [
+        0.65,
+        0.8,
+        0.95
+      ],
+      "rotacion": [
+        0,
+        0,
+        0
+      ],
+      "materialId": "ceramica",
+      "material": {
+        "nombre": "Cerámica sanitaria clara · provisional",
+        "color": "#f4eee4",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "compra",
+      "requiereElectricidad": false,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Modelo esquemático. Altura, transferencia, accesibilidad y acometidas no verificadas.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "enlaces": {
+        "inventarioId": "wc-01",
+        "presupuestoId": "pres-wc-01",
+        "planoMuebleId": "ficha-wc-01",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "lavabo-01",
+      "nombre": "Lavamanos del baño",
+      "categoria": "lavabo",
+      "espacioId": "sanitario",
+      "posicion": [
+        5.35,
+        0,
+        -3.55
+      ],
+      "dimensiones": [
+        0.65,
+        0.95,
+        0.5
+      ],
+      "rotacion": [
+        0,
+        0,
+        0
+      ],
+      "materialId": "ceramica",
+      "material": {
+        "nombre": "Cerámica sanitaria clara · provisional",
+        "color": "#f4eee4",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "compra",
+      "requiereElectricidad": false,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Lavamanos de clientas en baño existente; función prevista sin agregar otro punto en atención. Disponibilidad, accesibilidad y dotación sanitaria por verificar.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "enlaces": {
+        "inventarioId": "lavabo-01",
+        "presupuestoId": "pres-lavabo-01",
+        "planoMuebleId": "ficha-lavabo-01",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "usoSanitario": "manos-clientas",
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "lampara-central",
+      "nombre": "Luminaria central orgánica",
+      "categoria": "iluminacion",
+      "espacioId": "circulacion",
+      "posicion": [
+        0,
+        2.55,
+        0.2
+      ],
+      "dimensiones": [
+        2,
+        0.75,
+        1.3
+      ],
+      "rotacion": [
+        0,
+        0,
+        0
+      ],
+      "materialId": "champana",
+      "material": {
+        "nombre": "Metal champaña satinado · propuesta",
+        "color": "#b79b70",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "compra",
+      "requiereElectricidad": true,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Dos bandas escultóricas de metal satinado con difusores y suspensión. Borde inferior conceptual a 2.55 m; sin cálculo lumínico ni proveedor.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "enlaces": {
+        "inventarioId": "lampara-central",
+        "presupuestoId": "pres-lampara-central",
+        "planoMuebleId": "ficha-lampara-central",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "planta-01",
+      "nombre": "Jardinera de acceso",
+      "categoria": "decoracion",
+      "espacioId": "manicure",
+      "posicion": [
+        -5.5,
+        0,
+        3.5
+      ],
+      "dimensiones": [
+        0.7,
+        1.8,
+        0.65
+      ],
+      "rotacion": [
+        0,
+        0,
+        0
+      ],
+      "materialId": "madera",
+      "material": {
+        "nombre": "Madera clara sellada · propuesta",
+        "color": "#d7c3a5",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "compra",
+      "requiereElectricidad": false,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Decoración propuesta; revisar mantenimiento y limpieza.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "enlaces": {
+        "inventarioId": "planta-01",
+        "presupuestoId": "pres-planta-01",
+        "planoMuebleId": "ficha-planta-01",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "planta-02",
+      "nombre": "Jardinera de spa",
+      "categoria": "decoracion",
+      "espacioId": "pedicure",
+      "posicion": [
+        2.5,
+        0,
+        -3.45
+      ],
+      "dimensiones": [
+        0.5,
+        1.6,
+        0.45
+      ],
+      "rotacion": [
+        0,
+        0,
+        0
+      ],
+      "materialId": "madera",
+      "material": {
+        "nombre": "Madera clara sellada · propuesta",
+        "color": "#d7c3a5",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "compra",
+      "requiereElectricidad": false,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Propuesta vegetal, no implica condiciones sanitarias verificadas.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "enlaces": {
+        "inventarioId": "planta-02",
+        "presupuestoId": "pres-planta-02",
+        "planoMuebleId": "ficha-planta-02",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "espera-02",
+      "nombre": "Sofá lateral lounge",
+      "categoria": "asiento",
+      "espacioId": "espera",
+      "posicion": [
+        5.35,
+        0,
+        1.75
+      ],
+      "dimensiones": [
+        1.7,
+        0.9,
+        0.95
+      ],
+      "rotacion": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "materialId": "nude",
+      "material": {
+        "nombre": "Tapizado nude / rosa polvo · propuesta",
+        "color": "#d7b7ba",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "compra",
+      "requiereElectricidad": false,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Sofá adicional tras retirar tercer tocador; holguras y tejido por verificar.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "enlaces": {
+        "inventarioId": "espera-02",
+        "presupuestoId": "pres-espera-02",
+        "planoMuebleId": "ficha-espera-02",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "silla-recepcion",
+      "nombre": "Silla de recepción",
+      "categoria": "asiento",
+      "espacioId": "recepcion",
+      "posicion": [
+        2.6,
+        0,
+        2.95
+      ],
+      "dimensiones": [
+        0.58,
+        0.9,
+        0.58
+      ],
+      "rotacion": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "materialId": "tapizado",
+      "material": {
+        "nombre": "Tapizado crema lavable · por ensayar",
+        "color": "#e6dccb",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "compra",
+      "requiereElectricidad": false,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Asiento de quien atiende, detrás del mostrador orientado al acceso.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "enlaces": {
+        "inventarioId": "silla-recepcion",
+        "presupuestoId": "pres-silla-recepcion",
+        "planoMuebleId": "ficha-silla-recepcion",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "pantalla-01",
+      "nombre": "Pantalla ambiente · pedicure",
+      "categoria": "pantalla",
+      "espacioId": "pedicure",
+      "posicion": [
+        -0.6,
+        2.1,
+        -0.65
+      ],
+      "dimensiones": [
+        1.26,
+        1.2999999999999998,
+        0.12
+      ],
+      "rotacion": [
+        0,
+        3.141592653589793,
+        0
+      ],
+      "materialId": "champana",
+      "material": {
+        "nombre": "Metal champaña satinado · propuesta",
+        "color": "#b79b70",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "compra",
+      "requiereElectricidad": true,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "TV 55 pulgadas enfrentada a sillones, suspendida del techo conceptual. Borde inferior 2.10 m, ángulo visual y fijación estructural por validar; sin apoyo en suelo. La envolvente incluye soporte.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Solicitud R5; ubicación, redes y fabricación pendientes de validación."
+      },
+      "enlaces": {
+        "inventarioId": "pantalla-01",
+        "presupuestoId": "pres-pantalla-01",
+        "planoMuebleId": "ficha-pantalla-01",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "pantalla": {
+        "diagonal": 55,
+        "ancho": 1.218,
+        "alto": 0.685125,
+        "contenido": "ambiente",
+        "montaje": "suspendido",
+        "altoCarcasa": 0.73
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "pantalla-02",
+      "nombre": "Pantalla de marca · pedicure",
+      "categoria": "pantalla",
+      "espacioId": "pedicure",
+      "posicion": [
+        1.3,
+        2.1,
+        -0.65
+      ],
+      "dimensiones": [
+        1.26,
+        1.2999999999999998,
+        0.12
+      ],
+      "rotacion": [
+        0,
+        3.141592653589793,
+        0
+      ],
+      "materialId": "champana",
+      "material": {
+        "nombre": "Metal champaña satinado · propuesta",
+        "color": "#b79b70",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "compra",
+      "requiereElectricidad": true,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "TV 55 pulgadas enfrentada a sillones, suspendida del techo conceptual. Borde inferior 2.10 m, ángulo visual y fijación estructural por validar; sin apoyo en suelo. La envolvente incluye soporte.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Solicitud R5; ubicación, redes y fabricación pendientes de validación."
+      },
+      "enlaces": {
+        "inventarioId": "pantalla-02",
+        "presupuestoId": "pres-pantalla-02",
+        "planoMuebleId": "ficha-pantalla-02",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "pantalla": {
+        "diagonal": 55,
+        "ancho": 1.218,
+        "alto": 0.685125,
+        "contenido": "marca",
+        "montaje": "suspendido",
+        "altoCarcasa": 0.73
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "mesa-01",
+      "nombre": "Mesa de manicure 01",
+      "categoria": "mesa",
+      "espacioId": "manicure",
+      "posicion": [
+        -3.65,
+        0,
+        -1.3
+      ],
+      "dimensiones": [
+        1.6,
+        1.25,
+        0.75
+      ],
+      "rotacion": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "materialId": "piedra",
+      "material": {
+        "nombre": "Superficie clara no porosa · por validar",
+        "color": "#eee7dc",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "fabricacion",
+      "requiereElectricidad": true,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Envolvente incluye luz de tarea; tablero aproximado a 0.80 m. Ergonomía y aspiración por estudiar.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "estacionId": "est-manicure",
+      "enlaces": {
+        "inventarioId": "mesa-01",
+        "presupuestoId": "pres-mesa-01",
+        "planoMuebleId": "ficha-mesa-01",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "silla-cliente-01",
+      "nombre": "Silla de cliente 01",
+      "categoria": "asiento",
+      "espacioId": "manicure",
+      "posicion": [
+        -2.65,
+        0,
+        -1.3
+      ],
+      "dimensiones": [
+        0.7,
+        0.95,
+        0.7
+      ],
+      "rotacion": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "materialId": "tapizado",
+      "material": {
+        "nombre": "Tapizado crema lavable · por ensayar",
+        "color": "#e6dccb",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "compra",
+      "requiereElectricidad": false,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Compra propuesta. Revisar postura y separación en operación.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "estacionId": "est-manicure",
+      "enlaces": {
+        "inventarioId": "silla-cliente-01",
+        "presupuestoId": "pres-silla-cliente-01",
+        "planoMuebleId": "ficha-silla-cliente-01",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "silla-profesional-01",
+      "nombre": "Silla de profesional 01",
+      "categoria": "asiento",
+      "espacioId": "manicure",
+      "posicion": [
+        -4.65,
+        0,
+        -1.3
+      ],
+      "dimensiones": [
+        0.62,
+        0.9,
+        0.62
+      ],
+      "rotacion": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "materialId": "tapizado",
+      "material": {
+        "nombre": "Tapizado crema lavable · por ensayar",
+        "color": "#e6dccb",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "compra",
+      "requiereElectricidad": false,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Debe permitir ajuste ergonómico. No es referencia comercial cotizada.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "estacionId": "est-manicure",
+      "enlaces": {
+        "inventarioId": "silla-profesional-01",
+        "presupuestoId": "pres-silla-profesional-01",
+        "planoMuebleId": "ficha-silla-profesional-01",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "mesa-02",
+      "nombre": "Mesa de manicure 02",
+      "categoria": "mesa",
+      "espacioId": "manicure",
+      "posicion": [
+        -3.65,
+        0,
+        0.5
+      ],
+      "dimensiones": [
+        1.6,
+        1.25,
+        0.75
+      ],
+      "rotacion": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "materialId": "piedra",
+      "material": {
+        "nombre": "Superficie clara no porosa · por validar",
+        "color": "#eee7dc",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "fabricacion",
+      "requiereElectricidad": true,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Envolvente incluye luz de tarea; tablero aproximado a 0.80 m. Ergonomía y aspiración por estudiar.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "estacionId": "est-manicure-02",
+      "enlaces": {
+        "inventarioId": "mesa-02",
+        "presupuestoId": "pres-mesa-02",
+        "planoMuebleId": "ficha-mesa-02",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "silla-cliente-02",
+      "nombre": "Silla de cliente 02",
+      "categoria": "asiento",
+      "espacioId": "manicure",
+      "posicion": [
+        -2.65,
+        0,
+        0.5
+      ],
+      "dimensiones": [
+        0.7,
+        0.95,
+        0.7
+      ],
+      "rotacion": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "materialId": "tapizado",
+      "material": {
+        "nombre": "Tapizado crema lavable · por ensayar",
+        "color": "#e6dccb",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "compra",
+      "requiereElectricidad": false,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Compra propuesta. Revisar postura y separación en operación.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "estacionId": "est-manicure-02",
+      "enlaces": {
+        "inventarioId": "silla-cliente-02",
+        "presupuestoId": "pres-silla-cliente-02",
+        "planoMuebleId": "ficha-silla-cliente-02",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "silla-profesional-02",
+      "nombre": "Silla de profesional 02",
+      "categoria": "asiento",
+      "espacioId": "manicure",
+      "posicion": [
+        -4.65,
+        0,
+        0.5
+      ],
+      "dimensiones": [
+        0.62,
+        0.9,
+        0.62
+      ],
+      "rotacion": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "materialId": "tapizado",
+      "material": {
+        "nombre": "Tapizado crema lavable · por ensayar",
+        "color": "#e6dccb",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "compra",
+      "requiereElectricidad": false,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Debe permitir ajuste ergonómico. No es referencia comercial cotizada.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "estacionId": "est-manicure-02",
+      "enlaces": {
+        "inventarioId": "silla-profesional-02",
+        "presupuestoId": "pres-silla-profesional-02",
+        "planoMuebleId": "ficha-silla-profesional-02",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "mesa-03",
+      "nombre": "Mesa de manicure 03",
+      "categoria": "mesa",
+      "espacioId": "manicure",
+      "posicion": [
+        -3.65,
+        0,
+        2.3
+      ],
+      "dimensiones": [
+        1.6,
+        1.25,
+        0.75
+      ],
+      "rotacion": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "materialId": "piedra",
+      "material": {
+        "nombre": "Superficie clara no porosa · por validar",
+        "color": "#eee7dc",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "fabricacion",
+      "requiereElectricidad": true,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Envolvente incluye luz de tarea; tablero aproximado a 0.80 m. Ergonomía y aspiración por estudiar.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "estacionId": "est-manicure-03",
+      "enlaces": {
+        "inventarioId": "mesa-03",
+        "presupuestoId": "pres-mesa-03",
+        "planoMuebleId": "ficha-mesa-03",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "silla-cliente-03",
+      "nombre": "Silla de cliente 03",
+      "categoria": "asiento",
+      "espacioId": "manicure",
+      "posicion": [
+        -2.65,
+        0,
+        2.3
+      ],
+      "dimensiones": [
+        0.7,
+        0.95,
+        0.7
+      ],
+      "rotacion": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "materialId": "tapizado",
+      "material": {
+        "nombre": "Tapizado crema lavable · por ensayar",
+        "color": "#e6dccb",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "compra",
+      "requiereElectricidad": false,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Compra propuesta. Revisar postura y separación en operación.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "estacionId": "est-manicure-03",
+      "enlaces": {
+        "inventarioId": "silla-cliente-03",
+        "presupuestoId": "pres-silla-cliente-03",
+        "planoMuebleId": "ficha-silla-cliente-03",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "silla-profesional-03",
+      "nombre": "Silla de profesional 03",
+      "categoria": "asiento",
+      "espacioId": "manicure",
+      "posicion": [
+        -4.65,
+        0,
+        2.3
+      ],
+      "dimensiones": [
+        0.62,
+        0.9,
+        0.62
+      ],
+      "rotacion": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "materialId": "tapizado",
+      "material": {
+        "nombre": "Tapizado crema lavable · por ensayar",
+        "color": "#e6dccb",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "compra",
+      "requiereElectricidad": false,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Debe permitir ajuste ergonómico. No es referencia comercial cotizada.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "estacionId": "est-manicure-03",
+      "enlaces": {
+        "inventarioId": "silla-profesional-03",
+        "presupuestoId": "pres-silla-profesional-03",
+        "planoMuebleId": "ficha-silla-profesional-03",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "pedicure-01",
+      "nombre": "Estación spa de pedicure 01",
+      "categoria": "pedicure",
+      "espacioId": "pedicure",
+      "posicion": [
+        -0.6,
+        0,
+        -2.6
+      ],
+      "dimensiones": [
+        1.4,
+        1.4,
+        2.15
+      ],
+      "rotacion": [
+        0,
+        0,
+        0
+      ],
+      "materialId": "tapizado",
+      "material": {
+        "nombre": "Tapizado crema lavable · por ensayar",
+        "color": "#e6dccb",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "compra",
+      "requiereElectricidad": true,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Sillón, recipiente y plataforma de estudio. Acceso, agua, drenaje y limpieza pendientes.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "estacionId": "est-pedicure",
+      "enlaces": {
+        "inventarioId": "pedicure-01",
+        "presupuestoId": "pres-pedicure-01",
+        "planoMuebleId": "ficha-pedicure-01",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "pedicure-02",
+      "nombre": "Estación spa de pedicure 02",
+      "categoria": "pedicure",
+      "espacioId": "pedicure",
+      "posicion": [
+        1.3,
+        0,
+        -2.6
+      ],
+      "dimensiones": [
+        1.4,
+        1.4,
+        2.15
+      ],
+      "rotacion": [
+        0,
+        0,
+        0
+      ],
+      "materialId": "tapizado",
+      "material": {
+        "nombre": "Tapizado crema lavable · por ensayar",
+        "color": "#e6dccb",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "compra",
+      "requiereElectricidad": true,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Sillón, recipiente y plataforma de estudio. Acceso, agua, drenaje y limpieza pendientes.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "estacionId": "est-pedicure-02",
+      "enlaces": {
+        "inventarioId": "pedicure-02",
+        "presupuestoId": "pres-pedicure-02",
+        "planoMuebleId": "ficha-pedicure-02",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "espejo-bano",
+      "nombre": "Espejo del baño",
+      "categoria": "espejo",
+      "espacioId": "sanitario",
+      "posicion": [
+        5.35,
+        1.15,
+        -3.88
+      ],
+      "dimensiones": [
+        0.65,
+        0.9,
+        0.06
+      ],
+      "rotacion": [
+        0,
+        0,
+        0
+      ],
+      "materialId": "champana",
+      "material": {
+        "nombre": "Metal champaña satinado · propuesta",
+        "color": "#b79b70",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "compra",
+      "requiereElectricidad": false,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Espejo conceptual sobre lavamanos; fijación pendiente.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "enlaces": {
+        "inventarioId": "espejo-bano",
+        "presupuestoId": "pres-espejo-bano",
+        "planoMuebleId": "ficha-espejo-bano",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "maquillaje-01",
+      "nombre": "Tocador de maquillaje 01",
+      "categoria": "maquillaje",
+      "espacioId": "maquillaje",
+      "posicion": [
+        5.55,
+        0,
+        -1.15
+      ],
+      "dimensiones": [
+        1.15,
+        2.1,
+        0.65
+      ],
+      "rotacion": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "materialId": "madera",
+      "material": {
+        "nombre": "Madera clara sellada · propuesta",
+        "color": "#d7c3a5",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "fabricacion",
+      "requiereElectricidad": true,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Incluye espejo y luz de tarea conceptual. Nuevo servicio solicitado, no portafolio aprobado.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "estacionId": "est-maquillaje-01",
+      "enlaces": {
+        "inventarioId": "maquillaje-01",
+        "presupuestoId": "pres-maquillaje-01",
+        "planoMuebleId": "ficha-maquillaje-01",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "silla-maquillaje-01",
+      "nombre": "Silla alta de maquillaje 01",
+      "categoria": "asiento",
+      "espacioId": "maquillaje",
+      "posicion": [
+        4.45,
+        0,
+        -1.15
+      ],
+      "dimensiones": [
+        0.6,
+        1.05,
+        0.6
+      ],
+      "rotacion": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "materialId": "tapizado",
+      "material": {
+        "nombre": "Tapizado crema lavable · por ensayar",
+        "color": "#e6dccb",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "compra",
+      "requiereElectricidad": false,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Silla específica con reposapiés; postura por validar.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "estacionId": "est-maquillaje-01",
+      "enlaces": {
+        "inventarioId": "silla-maquillaje-01",
+        "presupuestoId": "pres-silla-maquillaje-01",
+        "planoMuebleId": "ficha-silla-maquillaje-01",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "maquillaje-02",
+      "nombre": "Tocador de maquillaje 02",
+      "categoria": "maquillaje",
+      "espacioId": "maquillaje",
+      "posicion": [
+        5.55,
+        0,
+        0.25
+      ],
+      "dimensiones": [
+        1.15,
+        2.1,
+        0.65
+      ],
+      "rotacion": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "materialId": "madera",
+      "material": {
+        "nombre": "Madera clara sellada · propuesta",
+        "color": "#d7c3a5",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "fabricacion",
+      "requiereElectricidad": true,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Incluye espejo y luz de tarea conceptual. Nuevo servicio solicitado, no portafolio aprobado.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "estacionId": "est-maquillaje-02",
+      "enlaces": {
+        "inventarioId": "maquillaje-02",
+        "presupuestoId": "pres-maquillaje-02",
+        "planoMuebleId": "ficha-maquillaje-02",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "silla-maquillaje-02",
+      "nombre": "Silla alta de maquillaje 02",
+      "categoria": "asiento",
+      "espacioId": "maquillaje",
+      "posicion": [
+        4.45,
+        0,
+        0.25
+      ],
+      "dimensiones": [
+        0.6,
+        1.05,
+        0.6
+      ],
+      "rotacion": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "materialId": "tapizado",
+      "material": {
+        "nombre": "Tapizado crema lavable · por ensayar",
+        "color": "#e6dccb",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "compra",
+      "requiereElectricidad": false,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Silla específica con reposapiés; postura por validar.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "estacionId": "est-maquillaje-02",
+      "enlaces": {
+        "inventarioId": "silla-maquillaje-02",
+        "presupuestoId": "pres-silla-maquillaje-02",
+        "planoMuebleId": "ficha-silla-maquillaje-02",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "documentacion": {
+        "revision": "R5"
+      }
+    },
+    {
+      "id": "lavamanos-personal",
+      "nombre": "Lavamanos exclusivo del personal",
+      "categoria": "lavabo",
+      "espacioId": "asepsia",
+      "posicion": [
+        -1.65,
+        0,
+        -3.75
+      ],
+      "dimensiones": [
+        0.5,
+        0.95,
+        0.45
+      ],
+      "rotacion": [
+        0,
+        0,
+        0
+      ],
+      "materialId": "ceramica",
+      "material": {
+        "nombre": "Cerámica sanitaria clara · provisional",
+        "color": "#f4eee4",
+        "estado": "por-verificar"
+      },
+      "cantidad": 1,
+      "tipoAdquisicion": "compra",
+      "requiereElectricidad": false,
+      "costoUnitario": null,
+      "moneda": "COP",
+      "estadoVerificacion": "conceptual",
+      "notas": "Higiene de manos del personal, separada del instrumental y aseo. Abastecimiento, desagüe, protección contra salpicaduras y acceso por verificar.",
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Solicitud R5; ubicación, redes y fabricación pendientes de validación."
+      },
+      "enlaces": {
+        "inventarioId": "lavamanos-personal",
+        "presupuestoId": "pres-lavamanos-personal",
+        "planoMuebleId": "ficha-lavamanos-personal",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      },
+      "usoSanitario": "manos-personal",
+      "documentacion": {
+        "revision": "R5"
+      }
+    }
+  ],
+  "estaciones": [
+    {
+      "id": "est-manicure",
+      "nombre": "Manicure 01",
+      "espacioId": "manicure",
+      "mobiliarioIds": [
+        "mesa-01",
+        "silla-cliente-01",
+        "silla-profesional-01"
+      ],
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "enlaces": {
+        "inventarioId": "est-manicure",
+        "presupuestoId": "pres-est-manicure",
+        "planoMuebleId": "ficha-est-manicure",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      }
+    },
+    {
+      "id": "est-manicure-02",
+      "nombre": "Manicure 02",
+      "espacioId": "manicure",
+      "mobiliarioIds": [
+        "mesa-02",
+        "silla-cliente-02",
+        "silla-profesional-02"
+      ],
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "enlaces": {
+        "inventarioId": "est-manicure-02",
+        "presupuestoId": "pres-est-manicure-02",
+        "planoMuebleId": "ficha-est-manicure-02",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      }
+    },
+    {
+      "id": "est-manicure-03",
+      "nombre": "Manicure 03",
+      "espacioId": "manicure",
+      "mobiliarioIds": [
+        "mesa-03",
+        "silla-cliente-03",
+        "silla-profesional-03"
+      ],
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "enlaces": {
+        "inventarioId": "est-manicure-03",
+        "presupuestoId": "pres-est-manicure-03",
+        "planoMuebleId": "ficha-est-manicure-03",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      }
+    },
+    {
+      "id": "est-pedicure",
+      "nombre": "Pedicure 01",
+      "espacioId": "pedicure",
+      "mobiliarioIds": [
+        "pedicure-01"
+      ],
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "enlaces": {
+        "inventarioId": "est-pedicure",
+        "presupuestoId": "pres-est-pedicure",
+        "planoMuebleId": "ficha-est-pedicure",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      }
+    },
+    {
+      "id": "est-pedicure-02",
+      "nombre": "Pedicure 02",
+      "espacioId": "pedicure",
+      "mobiliarioIds": [
+        "pedicure-02"
+      ],
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "enlaces": {
+        "inventarioId": "est-pedicure-02",
+        "presupuestoId": "pres-est-pedicure-02",
+        "planoMuebleId": "ficha-est-pedicure-02",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      }
+    },
+    {
+      "id": "est-maquillaje-01",
+      "nombre": "Maquillaje 01",
+      "espacioId": "maquillaje",
+      "mobiliarioIds": [
+        "maquillaje-01",
+        "silla-maquillaje-01"
+      ],
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "enlaces": {
+        "inventarioId": "est-maquillaje-01",
+        "presupuestoId": "pres-est-maquillaje-01",
+        "planoMuebleId": "ficha-est-maquillaje-01",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      }
+    },
+    {
+      "id": "est-maquillaje-02",
+      "nombre": "Maquillaje 02",
+      "espacioId": "maquillaje",
+      "mobiliarioIds": [
+        "maquillaje-02",
+        "silla-maquillaje-02"
+      ],
+      "evidencia": {
+        "tipo": "supuesto-diseno",
+        "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+      },
+      "enlaces": {
+        "inventarioId": "est-maquillaje-02",
+        "presupuestoId": "pres-est-maquillaje-02",
+        "planoMuebleId": "ficha-est-maquillaje-02",
+        "versionIds": [
+          "ritual-refinado-r6"
+        ]
+      }
+    }
+  ],
+  "puntosTecnicos": [
+    {
+      "id": "e-mani-01",
+      "nombre": "Toma manicure 01",
+      "tipo": "energia",
+      "posicion": [
+        -4.9,
+        0.4,
+        -1.3
+      ],
+      "espacioId": "manicure",
+      "cantidad": 1,
+      "elementosIds": [
+        "mesa-01"
+      ],
+      "subtipoElectrico": "toma",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Ubicación preliminar; validar redes, capacidad, protecciones y exposición con diseño técnico real."
+    },
+    {
+      "id": "t-extraccion-01",
+      "nombre": "Extracción manicure 01",
+      "tipo": "extraccion",
+      "posicion": [
+        -3.65,
+        0.9,
+        -1.3
+      ],
+      "espacioId": "manicure",
+      "cantidad": 1,
+      "elementosIds": [
+        "mesa-01"
+      ],
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Ubicación preliminar; validar redes, capacidad, protecciones y exposición con diseño técnico real."
+    },
+    {
+      "id": "e-mani-02",
+      "nombre": "Toma manicure 02",
+      "tipo": "energia",
+      "posicion": [
+        -4.9,
+        0.4,
+        0.5
+      ],
+      "espacioId": "manicure",
+      "cantidad": 1,
+      "elementosIds": [
+        "mesa-02"
+      ],
+      "subtipoElectrico": "toma",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Ubicación preliminar; validar redes, capacidad, protecciones y exposición con diseño técnico real."
+    },
+    {
+      "id": "t-extraccion-02",
+      "nombre": "Extracción manicure 02",
+      "tipo": "extraccion",
+      "posicion": [
+        -3.65,
+        0.9,
+        0.5
+      ],
+      "espacioId": "manicure",
+      "cantidad": 1,
+      "elementosIds": [
+        "mesa-02"
+      ],
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Ubicación preliminar; validar redes, capacidad, protecciones y exposición con diseño técnico real."
+    },
+    {
+      "id": "e-mani-03",
+      "nombre": "Toma manicure 03",
+      "tipo": "energia",
+      "posicion": [
+        -4.9,
+        0.4,
+        2.3
+      ],
+      "espacioId": "manicure",
+      "cantidad": 1,
+      "elementosIds": [
+        "mesa-03"
+      ],
+      "subtipoElectrico": "toma",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Ubicación preliminar; validar redes, capacidad, protecciones y exposición con diseño técnico real."
+    },
+    {
+      "id": "t-extraccion-03",
+      "nombre": "Extracción manicure 03",
+      "tipo": "extraccion",
+      "posicion": [
+        -3.65,
+        0.9,
+        2.3
+      ],
+      "espacioId": "manicure",
+      "cantidad": 1,
+      "elementosIds": [
+        "mesa-03"
+      ],
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Ubicación preliminar; validar redes, capacidad, protecciones y exposición con diseño técnico real."
+    },
+    {
+      "id": "e-pedi-01",
+      "nombre": "Conexión pedicure 01",
+      "tipo": "energia",
+      "posicion": [
+        -0.6,
+        0.4,
+        -3.8
+      ],
+      "espacioId": "pedicure",
+      "cantidad": 1,
+      "elementosIds": [
+        "pedicure-01"
+      ],
+      "subtipoElectrico": "toma",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Ubicación preliminar; validar redes, capacidad, protecciones y exposición con diseño técnico real."
+    },
+    {
+      "id": "t-pedi-01",
+      "nombre": "Desagüe pedicure 01",
+      "tipo": "desague",
+      "posicion": [
+        -0.6,
+        0.05,
+        -2
+      ],
+      "espacioId": "pedicure",
+      "cantidad": 1,
+      "elementosIds": [
+        "pedicure-01"
+      ],
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Ubicación preliminar; validar redes, capacidad, protecciones y exposición con diseño técnico real."
+    },
+    {
+      "id": "e-pedi-02",
+      "nombre": "Conexión pedicure 02",
+      "tipo": "energia",
+      "posicion": [
+        1.3,
+        0.4,
+        -3.8
+      ],
+      "espacioId": "pedicure",
+      "cantidad": 1,
+      "elementosIds": [
+        "pedicure-02"
+      ],
+      "subtipoElectrico": "toma",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Ubicación preliminar; validar redes, capacidad, protecciones y exposición con diseño técnico real."
+    },
+    {
+      "id": "t-pedi-02",
+      "nombre": "Desagüe pedicure 02",
+      "tipo": "desague",
+      "posicion": [
+        1.3,
+        0.05,
+        -2
+      ],
+      "espacioId": "pedicure",
+      "cantidad": 1,
+      "elementosIds": [
+        "pedicure-02"
+      ],
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Ubicación preliminar; validar redes, capacidad, protecciones y exposición con diseño técnico real."
+    },
+    {
+      "id": "e-recepcion",
+      "nombre": "Toma de recepción",
+      "tipo": "energia",
+      "posicion": [
+        1.65,
+        0.4,
+        2.95
+      ],
+      "espacioId": "recepcion",
+      "cantidad": 1,
+      "elementosIds": [
+        "recepcion-01"
+      ],
+      "subtipoElectrico": "toma",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Ubicación preliminar; validar redes, capacidad, protecciones y exposición con diseño técnico real."
+    },
+    {
+      "id": "e-esmaltes",
+      "nombre": "Luz de exhibición",
+      "tipo": "energia",
+      "posicion": [
+        -5.7,
+        2.1,
+        0.5
+      ],
+      "espacioId": "exhibicion",
+      "cantidad": 1,
+      "elementosIds": [
+        "esmaltes-01"
+      ],
+      "subtipoElectrico": "toma",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Ubicación preliminar; validar redes, capacidad, protecciones y exposición con diseño técnico real."
+    },
+    {
+      "id": "e-asepsia",
+      "nombre": "Toma de apoyo operativo",
+      "tipo": "energia",
+      "posicion": [
+        -2.65,
+        1.1,
+        -3.65
+      ],
+      "espacioId": "asepsia",
+      "cantidad": 1,
+      "elementosIds": [
+        "asepsia-01"
+      ],
+      "subtipoElectrico": "toma",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Ubicación preliminar; validar redes, capacidad, protecciones y exposición con diseño técnico real."
+    },
+    {
+      "id": "e-tecnico",
+      "nombre": "Reserva eléctrica técnica",
+      "tipo": "energia",
+      "posicion": [
+        -4.25,
+        1.2,
+        -3.8
+      ],
+      "espacioId": "tecnico",
+      "cantidad": 1,
+      "elementosIds": [],
+      "subtipoElectrico": "reserva",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Ubicación preliminar; validar redes, capacidad, protecciones y exposición con diseño técnico real."
+    },
+    {
+      "id": "e-luz-central",
+      "nombre": "Punto de luz central",
+      "tipo": "energia",
+      "posicion": [
+        0,
+        3.2,
+        0.2
+      ],
+      "espacioId": "circulacion",
+      "cantidad": 1,
+      "elementosIds": [
+        "lampara-central"
+      ],
+      "subtipoElectrico": "luz",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Ubicación preliminar; validar redes, capacidad, protecciones y exposición con diseño técnico real."
+    },
+    {
+      "id": "t-agua",
+      "nombre": "Agua de asepsia",
+      "tipo": "agua",
+      "posicion": [
+        -2.65,
+        0.6,
+        -3.65
+      ],
+      "espacioId": "asepsia",
+      "cantidad": 1,
+      "elementosIds": [
+        "asepsia-01"
+      ],
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Ubicación preliminar; validar redes, capacidad, protecciones y exposición con diseño técnico real."
+    },
+    {
+      "id": "t-aseo",
+      "nombre": "Agua de aseo",
+      "tipo": "agua",
+      "posicion": [
+        -5.68,
+        0.6,
+        -2.55
+      ],
+      "espacioId": "aseo",
+      "cantidad": 1,
+      "elementosIds": [
+        "poceta-01"
+      ],
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Ubicación preliminar; validar redes, capacidad, protecciones y exposición con diseño técnico real."
+    },
+    {
+      "id": "t-bano",
+      "nombre": "Agua de baño",
+      "tipo": "agua",
+      "posicion": [
+        5.35,
+        0.6,
+        -3.55
+      ],
+      "espacioId": "sanitario",
+      "cantidad": 1,
+      "elementosIds": [
+        "lavabo-01"
+      ],
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Ubicación preliminar; validar redes, capacidad, protecciones y exposición con diseño técnico real."
+    },
+    {
+      "id": "t-residuos",
+      "nombre": "Resguardo por clasificar",
+      "tipo": "residuos",
+      "posicion": [
+        -2.65,
+        0.3,
+        -3.15
+      ],
+      "espacioId": "tecnico",
+      "cantidad": 1,
+      "elementosIds": [],
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Reserva para residuos del proceso; recipiente y segregación por definir. No vincular con apoyo limpio de manicure."
+    },
+    {
+      "id": "e-maquillaje-01",
+      "nombre": "Toma tocador 01",
+      "tipo": "energia",
+      "posicion": [
+        5.85,
+        1.1,
+        -1.15
+      ],
+      "espacioId": "maquillaje",
+      "cantidad": 1,
+      "elementosIds": [
+        "maquillaje-01"
+      ],
+      "subtipoElectrico": "toma",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Ubicación preliminar; validar redes, capacidad, protecciones y exposición con diseño técnico real."
+    },
+    {
+      "id": "e-maquillaje-02",
+      "nombre": "Toma tocador 02",
+      "tipo": "energia",
+      "posicion": [
+        5.85,
+        1.1,
+        0.25
+      ],
+      "espacioId": "maquillaje",
+      "cantidad": 1,
+      "elementosIds": [
+        "maquillaje-02"
+      ],
+      "subtipoElectrico": "toma",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Ubicación preliminar; validar redes, capacidad, protecciones y exposición con diseño técnico real."
+    },
+    {
+      "id": "e-pantalla-01",
+      "nombre": "Conexión suspendida TV pedicure 1",
+      "tipo": "energia",
+      "posicion": [
+        -0.6,
+        3.35,
+        -0.65
+      ],
+      "espacioId": "pedicure",
+      "cantidad": 1,
+      "elementosIds": [
+        "pantalla-01"
+      ],
+      "subtipoElectrico": "toma",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Ubicación preliminar; validar redes, capacidad, protecciones y exposición con diseño técnico real."
+    },
+    {
+      "id": "e-pantalla-02",
+      "nombre": "Conexión suspendida TV pedicure 2",
+      "tipo": "energia",
+      "posicion": [
+        1.3,
+        3.35,
+        -0.65
+      ],
+      "espacioId": "pedicure",
+      "cantidad": 1,
+      "elementosIds": [
+        "pantalla-02"
+      ],
+      "subtipoElectrico": "toma",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Ubicación preliminar; validar redes, capacidad, protecciones y exposición con diseño técnico real."
+    },
+    {
+      "id": "t-manos-personal",
+      "nombre": "Agua exclusiva lavado de manos personal",
+      "tipo": "agua",
+      "posicion": [
+        -1.65,
+        0.6,
+        -3.75
+      ],
+      "espacioId": "asepsia",
+      "cantidad": 1,
+      "elementosIds": [
+        "lavamanos-personal"
+      ],
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Red prevista; capacidad y potabilidad por verificar."
+    },
+    {
+      "id": "d-asepsia-01",
+      "nombre": "Desagüe · Mesón técnico de asepsia",
+      "tipo": "desague",
+      "posicion": [
+        -2.65,
+        0.12,
+        -3.65
+      ],
+      "espacioId": "asepsia",
+      "cantidad": 1,
+      "elementosIds": [
+        "asepsia-01"
+      ],
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Sifón y conducción independientes previstos; trazado, pendientes y conexión por diseñar."
+    },
+    {
+      "id": "d-poceta-01",
+      "nombre": "Desagüe · Poceta de aseo prevista",
+      "tipo": "desague",
+      "posicion": [
+        -5.68,
+        0.12,
+        -2.55
+      ],
+      "espacioId": "aseo",
+      "cantidad": 1,
+      "elementosIds": [
+        "poceta-01"
+      ],
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Sifón y conducción independientes previstos; trazado, pendientes y conexión por diseñar."
+    },
+    {
+      "id": "d-lavabo-01",
+      "nombre": "Desagüe · Lavamanos del baño",
+      "tipo": "desague",
+      "posicion": [
+        5.35,
+        0.12,
+        -3.55
+      ],
+      "espacioId": "sanitario",
+      "cantidad": 1,
+      "elementosIds": [
+        "lavabo-01"
+      ],
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Sifón y conducción independientes previstos; trazado, pendientes y conexión por diseñar."
+    },
+    {
+      "id": "d-lavamanos-personal",
+      "nombre": "Desagüe · Lavamanos exclusivo del personal",
+      "tipo": "desague",
+      "posicion": [
+        -1.65,
+        0.12,
+        -3.75
+      ],
+      "espacioId": "asepsia",
+      "cantidad": 1,
+      "elementosIds": [
+        "lavamanos-personal"
+      ],
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Sifón y conducción independientes previstos; trazado, pendientes y conexión por diseñar."
+    }
+  ],
+  "fachada": {
+    "muroId": "m-sur",
+    "profundidad": 0.12,
+    "altoFriso": 0.52,
+    "evidencia": {
+      "tipo": "supuesto-diseno",
+      "fuente": "Rediseño V0.2-R3 solicitado por la usuaria; sin inmueble seleccionado"
+    }
+  },
+  "evacuacion": {
+    "salidaId": "p-acceso",
+    "recorrido": [
+      [
+        0,
+        -1.3
+      ],
+      [
+        0,
+        1.5
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "evidencia": {
+      "tipo": "pendiente-verificacion",
+      "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+    }
+  },
+  "senales": [
+    {
+      "id": "s-extintor",
+      "nombre": "Señal EXTINTOR",
+      "texto": "EXTINTOR",
+      "espacioId": "acceso",
+      "posicion": [
+        -1.425,
+        2.65,
+        3.96
+      ],
+      "rotacion": [
+        0,
+        3.141592653589793,
+        0
+      ],
+      "dimensiones": [
+        0.7,
+        0.28,
+        0.025
+      ],
+      "tipo": "seguridad",
+      "pictograma": "extintor",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Señal conceptual: ubicación, formato y exigibilidad por verificar."
+    },
+    {
+      "id": "s-botiquin",
+      "nombre": "Señal BOTIQUÍN",
+      "texto": "BOTIQUÍN",
+      "espacioId": "tecnico",
+      "posicion": [
+        -4.8,
+        2.95,
+        -3.96
+      ],
+      "rotacion": [
+        0,
+        0,
+        0
+      ],
+      "dimensiones": [
+        0.85,
+        0.3,
+        0.025
+      ],
+      "tipo": "seguridad",
+      "pictograma": "botiquin",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Señal conceptual: ubicación, formato y exigibilidad por verificar."
+    },
+    {
+      "id": "s-restringido",
+      "nombre": "Señal SOLO PERSONAL",
+      "texto": "SOLO PERSONAL",
+      "espacioId": "tecnico",
+      "posicion": [
+        -3.45,
+        2.95,
+        -3.96
+      ],
+      "rotacion": [
+        0,
+        0,
+        0
+      ],
+      "dimensiones": [
+        1.5,
+        0.3,
+        0.025
+      ],
+      "tipo": "seguridad",
+      "pictograma": "restringido",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Señal conceptual: ubicación, formato y exigibilidad por verificar."
+    },
+    {
+      "id": "s-ruta",
+      "nombre": "Señal SALIDA ←",
+      "texto": "SALIDA ←",
+      "espacioId": "manicure",
+      "posicion": [
+        -5.96,
+        2.75,
+        2.85
+      ],
+      "rotacion": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "dimensiones": [
+        1.2,
+        0.3,
+        0.025
+      ],
+      "tipo": "seguridad",
+      "pictograma": "ruta",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Señal conceptual: ubicación, formato y exigibilidad por verificar."
+    },
+    {
+      "id": "s-plano",
+      "nombre": "Señal EVACUACIÓN · PROPUESTA",
+      "texto": "EVACUACIÓN · PROPUESTA",
+      "espacioId": "acceso",
+      "posicion": [
+        -1.425,
+        1.08,
+        3.96
+      ],
+      "rotacion": [
+        0,
+        3.141592653589793,
+        0
+      ],
+      "dimensiones": [
+        0.65,
+        0.6,
+        0.025
+      ],
+      "tipo": "seguridad",
+      "pictograma": "plano",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Señal conceptual: ubicación, formato y exigibilidad por verificar."
+    },
+    {
+      "id": "s-fachada",
+      "nombre": "Señal Ritual Amarte",
+      "texto": "Ritual Amarte",
+      "espacioId": "acceso",
+      "posicion": [
+        0,
+        3.19,
+        4.32
+      ],
+      "rotacion": [
+        0,
+        0,
+        0
+      ],
+      "dimensiones": [
+        3.5,
+        0.3,
+        0.025
+      ],
+      "tipo": "marca",
+      "evidencia": {
+        "tipo": "decision-preliminar",
+        "fuente": "Maestro V1.7 caps. 16–18 y 22; dirección de experiencia, no capacidad aprobada"
+      },
+      "notas": "Propuesta de orientación e identidad; no es señalética aprobada."
+    },
+    {
+      "id": "s-descriptor",
+      "nombre": "Señal ESTUDIO DE UÑAS",
+      "texto": "ESTUDIO DE UÑAS",
+      "espacioId": "acceso",
+      "posicion": [
+        0,
+        2.96,
+        4.32
+      ],
+      "rotacion": [
+        0,
+        0,
+        0
+      ],
+      "dimensiones": [
+        2.2,
+        0.12,
+        0.025
+      ],
+      "tipo": "marca",
+      "evidencia": {
+        "tipo": "decision-preliminar",
+        "fuente": "Maestro V1.7 caps. 16–18 y 22; dirección de experiencia, no capacidad aprobada"
+      },
+      "notas": "Propuesta de orientación e identidad; no es señalética aprobada."
+    },
+    {
+      "id": "s-maquillaje",
+      "nombre": "Señal MAQUILLAJE",
+      "texto": "MAQUILLAJE",
+      "espacioId": "maquillaje",
+      "posicion": [
+        5.89,
+        2.65,
+        -0.45
+      ],
+      "rotacion": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "dimensiones": [
+        1.5,
+        0.22,
+        0.025
+      ],
+      "tipo": "orientacion",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Propuesta de orientación e identidad; no es señalética aprobada."
+    },
+    {
+      "id": "s-marca",
+      "nombre": "Señal Ritual Amarte",
+      "texto": "Ritual Amarte",
+      "espacioId": "recepcion",
+      "posicion": [
+        1.35,
+        2.85,
+        -3.96
+      ],
+      "rotacion": [
+        0,
+        0,
+        0
+      ],
+      "dimensiones": [
+        2.4,
+        0.42,
+        0.025
+      ],
+      "tipo": "marca",
+      "evidencia": {
+        "tipo": "decision-preliminar",
+        "fuente": "Maestro V1.7 caps. 16–18 y 22; dirección de experiencia, no capacidad aprobada"
+      },
+      "notas": "Propuesta de orientación e identidad; no es señalética aprobada."
+    },
+    {
+      "id": "s-recepcion",
+      "nombre": "Señal RECEPCIÓN",
+      "texto": "RECEPCIÓN",
+      "espacioId": "recepcion",
+      "posicion": [
+        1.28,
+        1.01,
+        2.95
+      ],
+      "rotacion": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "dimensiones": [
+        1.1,
+        0.16,
+        0.025
+      ],
+      "tipo": "orientacion",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Propuesta de orientación e identidad; no es señalética aprobada."
+    },
+    {
+      "id": "s-man",
+      "nombre": "Señal MANICURE",
+      "texto": "MANICURE",
+      "espacioId": "manicure",
+      "posicion": [
+        -5.89,
+        2.6,
+        0.5
+      ],
+      "rotacion": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "dimensiones": [
+        1.8,
+        0.3,
+        0.025
+      ],
+      "tipo": "orientacion",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Propuesta de orientación e identidad; no es señalética aprobada."
+    },
+    {
+      "id": "s-pedi",
+      "nombre": "Señal PEDICURE",
+      "texto": "PEDICURE",
+      "espacioId": "pedicure",
+      "posicion": [
+        0.35,
+        2.13,
+        -3.89
+      ],
+      "rotacion": [
+        0,
+        0,
+        0
+      ],
+      "dimensiones": [
+        1.5,
+        0.22,
+        0.025
+      ],
+      "tipo": "orientacion",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Propuesta de orientación e identidad; no es señalética aprobada."
+    },
+    {
+      "id": "s-wc",
+      "nombre": "Señal BAÑO",
+      "texto": "BAÑO",
+      "espacioId": "sanitario",
+      "posicion": [
+        3.65,
+        2.4,
+        -1.7
+      ],
+      "rotacion": [
+        0,
+        0,
+        0
+      ],
+      "dimensiones": [
+        0.65,
+        0.22,
+        0.025
+      ],
+      "tipo": "orientacion",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Propuesta de orientación e identidad; no es señalética aprobada."
+    },
+    {
+      "id": "s-asepsia",
+      "nombre": "Señal ASEPSIA · INSTRUMENTAL",
+      "texto": "ASEPSIA · INSTRUMENTAL",
+      "espacioId": "asepsia",
+      "posicion": [
+        -2.65,
+        2.4,
+        -3.87
+      ],
+      "rotacion": [
+        0,
+        0,
+        0
+      ],
+      "dimensiones": [
+        1.6,
+        0.22,
+        0.025
+      ],
+      "tipo": "orientacion",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Propuesta de orientación e identidad; no es señalética aprobada."
+    },
+    {
+      "id": "s-tecnico",
+      "nombre": "Señal ALMACENAMIENTO LIMPIO",
+      "texto": "ALMACENAMIENTO LIMPIO",
+      "espacioId": "almacen",
+      "posicion": [
+        -4.7,
+        2.4,
+        -3.87
+      ],
+      "rotacion": [
+        0,
+        0,
+        0
+      ],
+      "dimensiones": [
+        1.7,
+        0.22,
+        0.025
+      ],
+      "tipo": "orientacion",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Propuesta de orientación e identidad; no es señalética aprobada."
+    },
+    {
+      "id": "s-acceso",
+      "nombre": "Señal ACCESO",
+      "texto": "ACCESO",
+      "espacioId": "acceso",
+      "posicion": [
+        0,
+        2.64,
+        3.96
+      ],
+      "rotacion": [
+        0,
+        3.141592653589793,
+        0
+      ],
+      "dimensiones": [
+        1.1,
+        0.22,
+        0.025
+      ],
+      "tipo": "orientacion",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Propuesta de orientación e identidad; no es señalética aprobada."
+    },
+    {
+      "id": "s-salida",
+      "nombre": "Señal SALIDA",
+      "texto": "SALIDA",
+      "espacioId": "acceso",
+      "posicion": [
+        0,
+        3.02,
+        3.96
+      ],
+      "rotacion": [
+        0,
+        3.141592653589793,
+        0
+      ],
+      "dimensiones": [
+        1.25,
+        0.3,
+        0.025
+      ],
+      "tipo": "seguridad",
+      "pictograma": "salida",
+      "evidencia": {
+        "tipo": "pendiente-verificacion",
+        "fuente": "Maestro V1.7 caps. 19–20; diseño técnico, visita y cotizaciones pendientes"
+      },
+      "notas": "Señal conceptual: ubicación, formato y exigibilidad por verificar."
+    }
+  ],
+  "acabados": {
+    "pisoMaterialId": "piso",
+    "techoMaterialId": "muro"
+  },
+  "limites": [
+    "Escenario de 96 m² de referencia (12 × 8), editable: no corresponde a un inmueble ni es decisión comercial aprobada.",
+    "Tres manicure, dos pedicure y dos maquillaje son hipótesis espaciales, no capacidad de atención o plantilla confirmadas por el maestro.",
+    "Servicios técnicos, baño, holguras, puertas y circulación requieren revisión; no se declara cumplimiento sanitario o accesibilidad.",
+    "La franja de apoyo se identifica y equipa esquemáticamente; circuitos limpio/usado y resguardo de residuos siguen pendientes.",
+    "Tomas y señalización son preliminares; no sustituyen diseños eléctrico, lumínico, sanitario ni de evacuación.",
+    "Fabricación/compra son decisiones propuestas; importes desconocidos permanecen por cotizar."
+  ]
+}

@@ -1,0 +1,25 @@
+node_modules/
+dist/
+.env*
+!.env.example
+references/private/
+**/references/private/
+*.docx
+*.pdf
+work/
+test-results/
+.DS_Store
+*.log
+
+# Credenciales y material confidencial (nunca publicar)
+secrets/
+confidential/
+private/
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+service-account*.json
+*V1_7*.doc*
+*V1.7*.doc*
