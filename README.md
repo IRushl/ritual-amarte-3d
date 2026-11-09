@@ -1,6 +1,6 @@
 # Ritual Amarte 3D · V0.2-R8
 
-Refinamiento de R3, sin reconstrucción. React/TypeScript, Three.js/R3F/Drei y Vite. Sitio estático con base relativa para GitHub Pages; no publicado. Nombre y medidas conceptuales pendientes de validación.
+Refinamiento de R3, sin reconstrucción. React/TypeScript, Three.js/R3F/Drei y Vite. Sitio estático configurado para GitHub Pages en `/ritual-amarte-3d/`. Nombre y medidas conceptuales pendientes de validación.
 
 ## Ejecutar
 
@@ -12,6 +12,12 @@ npm run dev -- --port 5173
 ```
 
 Abrir http://127.0.0.1:5173/. `npm run typecheck`, `npm test`, `npm run build`; `npm run preview` sirve dist.
+
+## Publicación
+
+Cada push a `main` ejecuta `.github/workflows/deploy.yml`, que instala dependencias, compila y publica `dist` con GitHub Pages. La fuente de Pages debe estar configurada como GitHub Actions.
+
+URL prevista: https://irushl.github.io/ritual-amarte-3d/
 
 ## R4
 
@@ -66,6 +72,6 @@ Distribución R6 conservada. Nueve figuras con dos recorridos suaves; dos suspen
 
 Fachada con marca suministrada, vitrina de piso a dintel, remates cálidos, dos maceteros y cámara exterior ajustada. Abrir **Fachada**; **Mostrar techo** completa la vista del interior desde la calle. La puerta y todo el interior R7 se conservan. La fuente de marca es una lámina RGB, por lo que el recorte y relieve son provisionales. Sustitución por archivo limpio en `src/data/facadeBrand.ts`.
 
-Detalle: [docs/refinamiento-r8.md](docs/refinamiento-r8.md). Ejecutar como antes: `npm ci`, `npm run dev -- --port 5173`. No publicado ni iniciado otro alcance.
+Detalle: [docs/refinamiento-r8.md](docs/refinamiento-r8.md). Ejecutar como antes: `npm ci`, `npm run dev -- --port 5173`. No se inicia otro alcance.
 
 Ajuste posterior a R8: branding interior original aplicado al mostrador y centrado sobre Pedicure. Ver docs/decisiones.md. Se conservan fachada y distribución aprobadas.
